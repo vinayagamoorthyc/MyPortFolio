@@ -1,0 +1,38 @@
+.about_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    height: 720px;
+}
+
+/* ----------------------------------socials-------------------------- */
+
+.social_btn{
+    padding: 7px 10px;
+    border: 1px solid #bbb;
+    color: #222;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .social_btn:hover {
+    background-color: #583286;
+    color: #fff;
+    box-shadow: -20px 50px 50px rgba(0,0,0,0.2);
+    border: none;
+  }
+
+  .social_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 12px;
+  }

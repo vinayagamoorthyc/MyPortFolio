@@ -1,0 +1,7 @@
+.nav-bg{
+    position: fixed !important;
+    width: 100% !important;
+    background-color: #cca9f737;
+    backdrop-filter: blur(6px);
+    z-index: 100;
+}
