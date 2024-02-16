@@ -1,0 +1,12 @@
+.skill_flex{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 100px;
+    height: 720px;
+    gap: 30px;
+}

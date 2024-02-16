@@ -1,9 +1,16 @@
 import React from 'react'
+import SkillCard from './SkillCard'
+import './Skills.css';
 
 export default function Skills() {
   return (
-    <div>
-      
+    <div className='skill_flex' id="skills">
+      <SkillCard/>
+      <SkillCard/>
+      <SkillCard/>
+      <SkillCard/>
+      <SkillCard/>
+      <SkillCard/>
     </div>
   )
 }

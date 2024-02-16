@@ -18,7 +18,8 @@ export default function Navbar() {
         },
         {
             label: 'Skills',
-            icon: 'pi pi-bolt'
+            icon: 'pi pi-bolt',
+            url: '#skills'
         },
         {
             label: 'Projects',
