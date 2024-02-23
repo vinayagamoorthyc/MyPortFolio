@@ -9,6 +9,17 @@
     height: 720px;
 }
 
+.myimage{
+  background-image: url("../assets/IMG_7488.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 250px;
+  border: 0.5 solid gray;
+  width: 290px;
+  height: 290px;
+}
+
 /* ----------------------------------socials-------------------------- */
 
 .social_btn{

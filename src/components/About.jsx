@@ -6,7 +6,7 @@ export default function About() {
     <div id="about">
     <div className='about_flex'>
         <div>
-            <img width={300} src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" alt="" />
+            <div className='myimage'></div>
         </div>
         <div  style={{width:'50%'}}>
             <h2>Web Developer</h2>
@@ -18,7 +18,7 @@ export default function About() {
                 <i className='pi pi-envelope'></i> &nbsp;<b>Email:</b> sanjaiiti2709@gmail.com
             </div><br/>
             <div className='social_flex'>
-                <button class="social_btn">
+                <button class="social_btn" onClick={()=>window.open("https://www.linkedin.com/in/vinayaga-moorthy-c-bb8284276/","_blank")}>
                     <i className='pi pi-linkedin'></i>
                 </button>
                 <button class="social_btn">
@@ -27,7 +27,7 @@ export default function About() {
                 <button class="social_btn">
                     <i className='pi pi-telegram'></i>
                 </button>
-                <button class="social_btn">
+                <button class="social_btn" onClick={()=>window.open("https://github.com/vinayagamoorthyc","_blank")}>
                     <i className='pi pi-github'></i> Git Repositories
                 </button>
             </div>
