@@ -1,0 +1,56 @@
+.cookieCard {
+    width: 300px;
+    min-height: 300px;
+    background: linear-gradient(to right,rgb(137, 104, 255),rgb(175, 152, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 0px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cookieCard::before {
+    width: 150px;
+    height: 150px;
+    content: "";
+    background: linear-gradient(to right,rgb(142, 110, 255),rgb(208, 195, 255));
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+  }
+  
+  .cookieHeading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(241, 241, 241);
+    z-index: 2;
+  }
+  
+  .cookieDescription {
+    font-size: 0.9em;
+    color: rgb(241, 241, 241);
+    z-index: 2;
+  }
+  
+  .cookieDescription a {
+    color: rgb(241, 241, 241);
+    font-weight: 700;
+  }
+  
+  .acceptButton {
+    padding: 11px 20px;
+    background-color: #ffffff;
+    transition-duration: .2s;
+    border-radius: 10px;
+    border: none;
+    color: #714aff;
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+  }

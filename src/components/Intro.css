@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    height: 720px;
+    height: 750px;
     width: 100%;
     text-align: center;
     gap: 10px;
@@ -20,7 +20,7 @@
     border: none;
     padding: 0px 18px;
     border-radius: 5px;
-    background-color: #583286;
+    background: linear-gradient(to right,rgb(137, 104, 255),rgb(175, 152, 255));
     gap: 10px;
     cursor: pointer;
     transition: all 0.3s;
@@ -65,7 +65,7 @@
     transform: translateY(-5px);
   }
   .Documents-btn:hover {
-    background-color: #583286;
+    background: linear-gradient(to right,rgb(137, 104, 255),rgb(175, 152, 255));
   }
   .Documents-btn:hover .fileFront {
     transform: rotateX(30deg);

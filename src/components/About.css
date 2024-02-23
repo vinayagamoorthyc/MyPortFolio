@@ -6,7 +6,7 @@
     align-items: center;
     align-content: center;
     padding: 10px;
-    height: 720px;
+    height: 750px;
 }
 
 .myimage{
@@ -34,7 +34,7 @@
   }
   
   .social_btn:hover {
-    background-color: #583286;
+    background: linear-gradient(to right,rgb(137, 104, 255),rgb(175, 152, 255));
     color: #fff;
     box-shadow: -20px 50px 50px rgba(0,0,0,0.2);
     border: none;
