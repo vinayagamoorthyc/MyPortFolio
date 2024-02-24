@@ -23,7 +23,7 @@ export default function ProjectCard() {
             <img src="https://s3-ap-southeast-1.amazonaws.com/assets.skyfilabs.com/images/blog/smart-mirror.jpeg" alt="" width={260} style={{zIndex:"1"}} />
             <p class="cookieHeading">Smart Mirror</p>
             <p class="cookieDescription">A smart mirror is a technologically enhanced mirror that integrates various digital features to provide functionalities.</p>
-            <button class="acceptButton" onClick={()=>window.open("https://genuine-sawine-525236.netlify.app/","_blank")}>Visit TaskManager</button>
+            <button class="acceptButton" onClick={()=>window.open("https://genuine-sawine-525236.netlify.app/","_blank")}>Visit Project</button>
         </div>
         <div class="cookieCard">
             <img src={pro1} alt="" width={260} style={{zIndex:"1"}} />
