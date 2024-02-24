@@ -2,6 +2,21 @@ import React from 'react';
 import "./Intro.css";
 
 export default function Intro() {
+
+    const handleDownload = () => {
+        // Replace 'your-pdf-url' with the actual URL of your PDF file
+        const pdfUrl = 'your-pdf-url';
+    
+        fetch(pdfUrl)
+          .then((response) => response.blob())
+          .then((blob) => {
+            download(blob, 'document.pdf');
+          })
+          .catch((error) => {
+            console.error('Error downloading PDF:', error);
+          });
+      };
+      
   return (
     <div className='intro_flex' id='intro'>
         <div>
@@ -10,7 +25,7 @@ export default function Intro() {
             <p style={{paddingLeft:"19%", paddingRight:"19%"}}>As an Information Technology student with a passion for coding and I am eager to embark on a career in software development. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
             </p>
             <center>
-                <button class="Documents-btn">
+                <button class="Documents-btn" onClick={handleDownload}>
                     <span class="folderContainer">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
