@@ -1,16 +1,17 @@
 import React from 'react';
 import "./Intro.css";
+import download from 'js-file-download';
 
 export default function Intro() {
 
     const handleDownload = () => {
         // Replace 'your-pdf-url' with the actual URL of your PDF file
-        const pdfUrl = 'your-pdf-url';
+        const pdfUrl = 'https://drive.google.com/file/d/1NkeE43ALSspZi2xj70C7G0ecAUL8GDmz/view?usp=sharing';
     
         fetch(pdfUrl)
           .then((response) => response.blob())
           .then((blob) => {
-            download(blob, 'document.pdf');
+            download(blob, 'VinayagaCV.pdf');
           })
           .catch((error) => {
             console.error('Error downloading PDF:', error);
