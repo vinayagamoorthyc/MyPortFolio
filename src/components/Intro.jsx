@@ -9,14 +9,21 @@ export default function Intro() {
         const pdfUrl = 'https://drive.google.com/file/d/1NkeE43ALSspZi2xj70C7G0ecAUL8GDmz/view?usp=sharing';
     
         fetch(pdfUrl)
-          .then((response) => response.blob())
-          .then((blob) => {
-            download(blob, 'VinayagaCV.pdf');
-          })
-          .catch((error) => {
-            console.error('Error downloading PDF:', error);
-          });
-      };
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'document.pdf';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+      })
+      .catch((error) => {
+        console.error('Error downloading PDF:', error);
+      });
+  };
       
   return (
     <div className='intro_flex' id='intro'>
