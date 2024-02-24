@@ -1,7 +1,7 @@
 .nav-bg{
     position: fixed !important;
     width: 100% !important;
-    background: linear-gradient(to right,rgba(137, 104, 255, 0.219),rgba(174, 152, 255, 0.285));
-    backdrop-filter: blur(6px);
+    background: #FAF9F6;
     z-index: 100;
+    color:#8968ff !important;
 }
