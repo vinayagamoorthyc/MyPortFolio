@@ -5,25 +5,22 @@ import download from 'js-file-download';
 export default function Intro() {
 
     const handleDownload = () => {
-        // Replace 'your-pdf-url' with the actual URL of your PDF file
+        // Replace 'your-google-drive-pdf-link' with the actual shareable link from Google Drive
         const pdfUrl = 'https://drive.google.com/file/d/1NkeE43ALSspZi2xj70C7G0ecAUL8GDmz/view?usp=sharing';
     
-        fetch(pdfUrl)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'document.pdf';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        window.URL.revokeObjectURL(url);
-      })
-      .catch((error) => {
-        console.error('Error downloading PDF:', error);
-      });
-  };
+        downloadFile(pdfUrl, 'document.pdf');
+      };
+    
+      const downloadFile = (url, filename) => {
+        fetch(url)
+          .then((response) => response.blob())
+          .then((blob) => {
+            download(blob, filename);
+          })
+          .catch((error) => {
+            console.error('Error downloading PDF:', error);
+          });
+      };
       
   return (
     <div className='intro_flex' id='intro'>
