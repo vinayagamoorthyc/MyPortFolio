@@ -9,10 +9,14 @@
     text-align: center;
     gap: 10px;
 }
+.intro_c{
+  width: 65%;
+}
 
 @media (max-width: 988px){
-  .intro_flex{
-    
+  .intro_c{
+    width: 100%;
+    padding: 2px;
   }
 }
 
