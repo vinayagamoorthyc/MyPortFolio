@@ -8,10 +8,14 @@
     padding: 10px;
     height: 750px;
 }
+.info-p{
+  width: 50%;
+}
 
 @media (max-width: 988px){
   .about_flex{
     margin-top: 125px;
+    margin-bottom: 125px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -27,7 +31,10 @@
   }
   .info-p{
     width: 100%;
-    padding: 0px;
+  }
+  .myimage{
+    width: 250px;
+    height: 250px;
   }
 }
 

@@ -12,9 +12,9 @@ export default function About() {
         <div>
             <div className='myimage' ></div>
         </div>
-        <div  style={{width:'50%'}}>
+        <div  className='info-p'>
             <h2>Web Developer</h2>
-            <p className='info-p'>I am <b>Vinayaga moorthy C</b> currently pursuing a <b>B.Tech</b> Information Technology at Karpagam College of Engineering. Eager to contribute my skills and passion for coding to innovative projects, I bring a foundation in Full Stack development, coupled with a proactive approach to learning and problem-solving.
+            <p >I am <b>Vinayaga moorthy C</b> currently pursuing a <b>B.Tech</b> Information Technology at Karpagam College of Engineering. Eager to contribute my skills and passion for coding to innovative projects, I bring a foundation in Full Stack development, coupled with a proactive approach to learning and problem-solving.
                 my coursework has provided me with a solid understanding of fundamental programming concepts and algorithms.
             </p>
             <div>

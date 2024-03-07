@@ -10,8 +10,8 @@ export default function Intro() {
     <div className='intro_flex' id='intro' data-aos="fade-up">
         <div>
             <h1>Hello, &nbsp;I'm Vinayaga Moorthy C</h1>
-            <h3 style={{paddingLeft:"19%", paddingRight:"19%"}}>Web Developer with a Passion for Coding</h3>
-            <p style={{paddingLeft:"19%", paddingRight:"19%"}}>As an Information Technology student with a passion for coding and I am eager to embark on a career in software development. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
+            <h3 >Web Developer with a Passion for Coding</h3>
+            <p>As an Information Technology student with a passion for coding and I am eager to embark on a career in software development. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
             </p>
             <center>
                 <button class="Documents-btn" onClick={()=>window.open("https://drive.google.com/file/d/17b62-YSj4SWipPcSbwvmLto2gHSJhxYr/view?usp=drive_link","_blank")}>
