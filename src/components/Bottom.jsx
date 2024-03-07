@@ -3,7 +3,7 @@ import "./Bottom.css";
 
 export default function Bottom() {
   return (
-    <div className='bottom'>
+    <div className='bottom' id='bottom'>
         <footer>
 <div class="footer">
 <div class="row">

@@ -10,3 +10,9 @@
     height: 750px;
     gap: 30px;
 }
+
+@media (max-width: 988px){
+    .skill_flex{
+        height: auto;
+    }
+}

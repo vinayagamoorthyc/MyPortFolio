@@ -29,7 +29,7 @@ export default function Navbar() {
         {
             label: 'Contact',
             icon: 'pi pi-envelope',
-            url: 'sanjaiiti2709@gmail.com'
+            url: '#bottom'
         }
     ];
 

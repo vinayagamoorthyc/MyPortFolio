@@ -9,6 +9,28 @@
     height: 750px;
 }
 
+@media (max-width: 988px){
+  .about_flex{
+    margin-top: 125px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .social_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-p{
+    width: 100%;
+    padding: 0px;
+  }
+}
+
 .myimage{
   background-image: url("../assets/IMG_7488.jpg");
   background-repeat: no-repeat;

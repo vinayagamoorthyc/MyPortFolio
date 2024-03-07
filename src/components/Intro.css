@@ -9,6 +9,12 @@
     gap: 10px;
 }
 
+@media (max-width: 988px){
+  .intro_flex{
+    
+  }
+}
+
 /* -------------------------download cv--------------------------- */
 
 .Documents-btn {
