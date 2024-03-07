@@ -14,8 +14,8 @@
 
 @media (max-width: 988px){
   .about_flex{
-    margin-top: 125px;
-    margin-bottom: 125px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     height: auto;
     display: flex;
     justify-content: center;
