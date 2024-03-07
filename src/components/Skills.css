@@ -14,5 +14,7 @@
 @media (max-width: 988px){
     .skill_flex{
         height: auto;
+        width: 100%;
+        padding: 15px;
     }
 }

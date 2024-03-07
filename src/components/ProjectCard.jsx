@@ -2,7 +2,6 @@ import React from 'react';
 import './ProjectCard.css';
 import pro1 from '../assets/project1.png';
 import pro2 from '../assets/project2.png';
-import pro3 from '../assets/project3.png';
 
 export default function ProjectCard() {
   return (

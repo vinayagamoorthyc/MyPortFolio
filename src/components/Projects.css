@@ -14,5 +14,6 @@
 @media (max-width: 988px){
     .projects_flex{
         height: auto;
+        padding: 0px;
     }
 }
