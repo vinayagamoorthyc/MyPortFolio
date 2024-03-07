@@ -9,7 +9,8 @@ export default function Intro() {
   return (
     <div className='intro_flex' id='intro' data-aos="fade-up">
         <div>
-            <h1>Hello, &nbsp;I'm Vinayaga Moorthy C</h1>
+            <h1 className='intro_h1'>Hello,</h1>
+            <h1>I'm Vinayaga Moorthy C</h1>
             <h3 >Web Developer with a Passion for Coding</h3>
             <center><p className='intro_c'>As an Information Technology student with a passion for coding and I am eager to embark on a career in software development. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
             </p></center>

@@ -21,7 +21,7 @@ export default function About() {
                 <i className="pi pi-phone"></i> &nbsp;<b>Mobile:</b> 9360810429<br/>
                 <i className='pi pi-envelope'></i> &nbsp;<b>Email:</b> sanjaiiti2709@gmail.com
             </div><br/>
-            <div className='social_flex' data-aos="zoom-out-left">
+            <div className='social_flex' data-aos="zoom-out">
                 <button class="social_btn" onClick={()=>window.open("https://www.linkedin.com/in/vinayaga-moorthy-c-bb8284276/","_blank")}>
                     <i className='pi pi-linkedin'></i>
                 </button>
