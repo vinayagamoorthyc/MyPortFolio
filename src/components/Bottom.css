@@ -42,17 +42,17 @@ body{
     margin:0% 1%;
     }
     
-    @media (max-width:720px){
+    @media (max-width:988px){
     .footer{
-    text-align:left;
+    text-align:center;
     padding:5%;
     }
     .footer .row ul li{
     display:block;
-    margin:10px 0px;
-    text-align:left;
+    margin:10px;
+    text-align:center;
     }
     .footer .row a i{
-    margin:0% 3%;
+        margin-left: 50px;
     }
     }

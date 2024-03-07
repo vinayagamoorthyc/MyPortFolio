@@ -12,9 +12,3 @@
     color: #fff;
     border: none;
   }
-
-  @media (max-width: 988px){
-    .social_btn2{
-      max-width: 500px;
-    }
-  }
