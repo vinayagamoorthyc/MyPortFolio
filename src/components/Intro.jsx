@@ -15,7 +15,7 @@ export default function Intro() {
             <center><p className='intro_c'>As an Information Technology student with a passion for coding and I am eager to embark on a career in software development. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
             </p></center>
             <center>
-                <button class="Documents-btn" onClick={()=>window.open("https://drive.google.com/file/d/1k7ud3agKIXgGzHYjwwH8TB79umYeZKnd/view?usp=sharing","_blank")}>
+                <button class="Documents-btn" onClick={()=>window.open("https://drive.usercontent.google.com/u/0/uc?id=1k7ud3agKIXgGzHYjwwH8TB79umYeZKnd&export=download","_blank")}>
                     <span class="folderContainer">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
