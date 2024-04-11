@@ -25,10 +25,10 @@ export default function ProjectCard() {
             <button class="acceptButton" onClick={()=>window.open("https://genuine-sawine-525236.netlify.app/","_blank")}>Visit Project</button>
         </div>
         <div class="cookieCard" data-aos="zoom-in">
-            <img src={pro1} alt="" width={260} style={{zIndex:"1"}} />
-            <p class="cookieHeading">ScholarShip Info App</p>
-            <p class="cookieDescription">An user-friendly application designed to serve as your one-stop solution for all scholarship information.<br/><br /><a href="https://github.com/vinayagamoorthyc/PowerToolsRental.git">Project-Repository</a></p>
-            <button class="acceptButton" onClick={()=>window.open("https://powertoolsrental.vercel.app/","_blank")}>Visit App</button>
+            <img src="https://st4.depositphotos.com/2274151/30828/v/450/depositphotos_308282000-stock-illustration-in-progress-sign-in-progress.jpg" alt="" width={260} style={{zIndex:"1"}} />
+            <p class="cookieHeading">LiBook App</p>
+            <p class="cookieDescription">Offers ebooks across various categories, allowing users to explore their favorite reads effortlessly. <br/><br /><a href="https://github.com/vinayagamoorthyc/LiBook_ebook.git">Project-Repository</a></p>
+            <button class="acceptButton" onClick={()=>window.open("https://libook-library.vercel.app/","_blank")}>Visit App</button>
         </div>
     </div>
   )
