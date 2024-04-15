@@ -16,8 +16,8 @@
 @media (max-width: 988px){
   .intro_flex{
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .intro_c{
     width: 90%;
