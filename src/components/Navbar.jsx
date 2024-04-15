@@ -29,7 +29,7 @@ export default function Navbar() {
         {
             label: 'Contact',
             icon: 'pi pi-envelope',
-            url: '#bottom'
+            url: 'https://www.linkedin.com/in/vinayaga-moorthy-c-bb8284276/'
         }
     ];
 
