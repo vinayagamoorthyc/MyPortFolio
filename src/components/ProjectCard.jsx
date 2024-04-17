@@ -2,6 +2,7 @@ import React from 'react';
 import './ProjectCard.css';
 import pro1 from '../assets/project1.png';
 import pro2 from '../assets/project2.png';
+import pro4 from '../assets/project4.png';
 
 export default function ProjectCard() {
   return (
@@ -25,10 +26,10 @@ export default function ProjectCard() {
             <button class="acceptButton" onClick={()=>window.open("https://genuine-sawine-525236.netlify.app/","_blank")}>Implemented code</button>
         </div>
         <div class="cookieCard" data-aos="zoom-in">
-            <img src="https://st4.depositphotos.com/2274151/30828/v/450/depositphotos_308282000-stock-illustration-in-progress-sign-in-progress.jpg" alt="" width={250} style={{zIndex:"1"}} />
+            <img src={pro4} alt="" width={260} style={{zIndex:"1"}} />
             <p class="cookieHeading">LiBook App</p>
             <p class="cookieDescription">Offers ebooks across various categories, allowing users to explore their favorite reads effortlessly. <br/><br /><a href="https://github.com/vinayagamoorthyc/LiBook_ebook.git">Project-Repository</a></p>
-            <button class="acceptButton" onClick={()=>window.open("https://libook-library.vercel.app/","_blank")}>Visit App</button>
+            <button class="acceptButton" onClick={()=>window.open("https://libook-library.vercel.app/","_blank")}>Visit LiBook</button>
         </div>
     </div>
   )
