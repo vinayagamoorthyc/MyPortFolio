@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Intro.css";
 import Aos from 'aos';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function Intro() {
     useEffect(()=>{
@@ -8,6 +9,7 @@ export default function Intro() {
         }, []);
   return (
     <div className='intro_flex' id='intro' data-aos="fade-up">
+        <Toaster position="bottom-center" toastOptions={{duration: 5000}}/>
         <div>
             <h1 className='intro_h1'>Hello</h1>
             <h1>I'm Vinayaga Moorthy C</h1>
@@ -15,7 +17,10 @@ export default function Intro() {
             <center><p className='intro_c'>As an <b>Information Technology</b> student with a passion for coding and I am eager to embark on a career in <b>software development</b>. Seeking an internship or entry-level position in a software company where I can leverage my academic knowledge, gain practical experience, and contribute to innovative projects.
             </p></center>
             <center>
-                <button class="Documents-btn" onClick={()=>window.open("https://drive.usercontent.google.com/u/0/uc?id=1q4RAdUSrDW8pKV2qcon6N2eGO9K8AqNQ&export=download","_blank")}>
+                <button class="Documents-btn" onClick={()=>{
+                    window.open("https://drive.usercontent.google.com/u/0/uc?id=1q4RAdUSrDW8pKV2qcon6N2eGO9K8AqNQ&export=download","_blank");
+                    toast.success('Download Completed');
+                }}>
                     <span class="folderContainer">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
