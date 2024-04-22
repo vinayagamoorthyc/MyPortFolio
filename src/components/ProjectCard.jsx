@@ -2,6 +2,7 @@ import React from 'react';
 import './ProjectCard.css';
 import pro1 from '../assets/project1.png';
 import pro2 from '../assets/project2.png';
+import pro3 from '../assets/project3.png';
 import pro4 from '../assets/project4.png';
 
 export default function ProjectCard() {
@@ -20,10 +21,10 @@ export default function ProjectCard() {
             <button style={{width:"100%"}} class="acceptButton" onClick={()=>window.open("https://personalised-chatbot.vercel.app/","_blank")}>Visit Personal ChatBot</button>
         </div>
         <div class="cookieCard" data-aos="zoom-in">
-            <img src="https://s3-ap-southeast-1.amazonaws.com/assets.skyfilabs.com/images/blog/smart-mirror.jpeg" alt="" width={250} style={{zIndex:"1"}} />
+            <img src={pro3} alt="" width={250} style={{zIndex:"1"}} />
             <p class="cookieHeading">Smart Mirror</p>
             <p class="cookieDescription">A smart mirror is a technologically enhanced mirror that integrates various digital features to provide functionalities.</p><br />
-            <button style={{width:"100%"}} class="acceptButton" onClick={()=>window.open("https://genuine-sawine-525236.netlify.app/","_blank")}>Implemented code</button>
+            <button style={{width:"100%"}} class="acceptButton" onClick={()=>window.open("","_blank")}>Implemented code</button>
         </div>
         <div class="cookieCard" data-aos="zoom-in">
             <img src={pro4} alt="" width={260} style={{zIndex:"1"}} />

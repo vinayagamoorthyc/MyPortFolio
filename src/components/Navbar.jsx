@@ -3,6 +3,7 @@ import { Menubar } from 'primereact/menubar';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import 'primeicons/primeicons.css';
 import './Navbar.css';
+import { act } from 'react-dom/test-utils';
 
 export default function Navbar() {
     const items = [
